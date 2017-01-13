@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011528198442}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011528198442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013746926228}
+  - 114: {fileID: 114000010855151734}
+  m_Layer: 0
+  m_Name: EventManagerLvl2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013746926228
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011528198442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000010855151734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011528198442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfbb9ff08b5b0449598d22efe4e84323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - dialog: Space Bears Are Happy.
+    fontSize: 40
+    startDelay: 2
+    fade: 1
+    fadeIn: 1
+    duration: 1
+    fadeOut: 1
+    autoContinue: 1
+    pauseCharacterControl: 1
+    respawn: 0
+    loadScene: 0
+    sceneName: 
+  - dialog: They Want You To Be Happy.
+    fontSize: 40
+    startDelay: 0
+    fade: 1
+    fadeIn: 1
+    duration: 1
+    fadeOut: 1
+    autoContinue: 1
+    pauseCharacterControl: 1
+    respawn: 0
+    loadScene: 0
+    sceneName: 
+  - dialog: Stupid Space Bears!
+    fontSize: 60
+    startDelay: 0
+    fade: 0
+    fadeIn: 0
+    duration: 1.5
+    fadeOut: 0
+    autoContinue: 0
+    pauseCharacterControl: 0
+    respawn: 0
+    loadScene: 0
+    sceneName: 
+  - dialog: You're Too Happy To Leave Space.
+    fontSize: 40
+    startDelay: 0
+    fade: 0
+    fadeIn: 0
+    duration: 1
+    fadeOut: 0
+    autoContinue: 0
+    pauseCharacterControl: 0
+    respawn: 0
+    loadScene: 0
+    sceneName: 
+  - dialog: This Place Is Lame. Let's Go.
+    fontSize: 40
+    startDelay: 0
+    fade: 1
+    fadeIn: 1
+    duration: 1
+    fadeOut: 1
+    autoContinue: 0
+    pauseCharacterControl: 0
+    respawn: 0
+    loadScene: 1
+    sceneName: FrontEnd
+  - dialog: You're Really Sad Now. Head To The Exit.
+    fontSize: 40
+    startDelay: 0
+    fade: 0
+    fadeIn: 0
+    duration: 2.5
+    fadeOut: 0
+    autoContinue: 0
+    pauseCharacterControl: 0
+    respawn: 0
+    loadScene: 0
+    sceneName: 
+  - dialog: Try Again
+    fontSize: 40
+    startDelay: 0
+    fade: 0
+    fadeIn: 0
+    duration: 2
+    fadeOut: 0
+    autoContinue: 0
+    pauseCharacterControl: 0
+    respawn: 1
+    loadScene: 0
+    sceneName: 
+  dialogueField: {fileID: 0}
+  respawnPoint: {fileID: 0}
